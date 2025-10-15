@@ -64,9 +64,7 @@ test('paiement d’un paiement supérieur à la solde d’un utilisateur échoue
   expect(user.balance).toBe(200);
 })
 
-// Roh puis merde vas-y l'énoncé attend des tests qui renvoient des bools mais tout le cours tourne autour des tests Jest faits avec expect
-// Le prof a pas mis d'effort dans son TP, je vais pas en mettre non plus
-// Si je réussi le test demain, ça sera clairement pas grâce aux TPs du prof
+// Fonction impossible telle quelle avec les fonctions de test Jest suivant le modèle des 2 premières (fournies dans le .zip) et les console.log de payBasket (fournie dans l'énoncé)
 
 // function testAppEcommerce() {
 //   let success = testAdd();
@@ -82,5 +80,3 @@ test('paiement d’un paiement supérieur à la solde d’un utilisateur échoue
 // }
 
 // testAppEcommerce();
-
-// Eh bah heureusement que c'est pas le prof qui fait le test de demain hein
